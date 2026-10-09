@@ -9,16 +9,36 @@
 
 I build open, source-linked briefings and research notes across **materials, AI, robotics, circularity, electrification and carbon**. They turn scattered signals into practical engineering questions.
 
-**Start here →** [Research garden](https://rethinksci-gif.github.io/) · [AIM4R weekly](https://rethinksci-gif.github.io/AIM4R/) · [Plastic Signal weekly](https://rethinksci-gif.github.io/plastic-signal-weekly/) · [Electrification](https://rethinksci-gif.github.io/electrification-intelligence-site/) · [CCU](https://rethinksci-gif.github.io/ccu-intelligence/)
+<p align="center"><samp>
+<a href="https://rethinksci-gif.github.io/">garden</a> ·
+<a href="https://rethinksci-gif.github.io/AIM4R/">aim4r</a> ·
+<a href="https://rethinksci-gif.github.io/plastic-signal-weekly/">plastic&nbsp;signal</a> ·
+<a href="https://rethinksci-gif.github.io/electrification-intelligence-site/">electrification</a> ·
+<a href="https://rethinksci-gif.github.io/ccu-intelligence/">ccu</a> ·
+<a href="mailto:rethinksci@gmail.com">contact</a>
+</samp></p>
 
-## Publications
+## Latest issues
 
-| Project | Focus | Cadence | Read | Follow |
-| --- | --- | --- | --- | --- |
-| **[AIM4R](https://github.com/rethinksci-gif/AIM4R)** | Robotics, embodied intelligence, materials | Weekly · 中文 / EN | [Digest ↗](https://rethinksci-gif.github.io/AIM4R/) | [RSS 中文](https://rethinksci-gif.github.io/AIM4R/feed-zh.xml) · [RSS EN](https://rethinksci-gif.github.io/AIM4R/feed-en.xml) |
-| **[Plastic Signal Weekly](https://github.com/rethinksci-gif/plastic-signal-weekly)** | Circular materials, recycling, regulation, supply chains | Weekly · EN | [Brief ↗](https://rethinksci-gif.github.io/plastic-signal-weekly/) | [RSS](https://rethinksci-gif.github.io/plastic-signal-weekly/feed-en.xml) |
-| **[Electrification Intelligence](https://github.com/rethinksci-gif/electrification-intelligence-site)** | Power mix, electrification, evidence appendices | Editions · EN / 中文 | [EN ↗](https://rethinksci-gif.github.io/electrification-intelligence-site/en/) · [中文 ↗](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/) | — |
-| **[CCU Intelligence](https://github.com/rethinksci-gif/ccu-intelligence)** | Carbon capture & utilization: deployment, economics, climate performance | Biweekly · EN | [Tracker ↗](https://rethinksci-gif.github.io/ccu-intelligence/) | — |
+<!-- latest starts -->
+| Briefing | Latest issue | Date |
+| --- | --- | --- |
+| **AIM4R**<br><sub>Weekly · 中文 / EN</sub> | [Robotics & materials digest: 3 picks from 23 items](https://rethinksci-gif.github.io/AIM4R/2026/10/05/summary-en.html) | 2026-10-05 |
+| **Plastic Signal Weekly**<br><sub>Weekly · EN</sub> | [Plastics brief: 21 picks from 252 signals](https://rethinksci-gif.github.io/plastic-signal-weekly/2026/10/04/summary-en.html) | 2026-10-04 |
+| **Electrification Intelligence**<br><sub>Editions · EN / 中文</sub> | [A cleaner power mix. An unfinished substitution.](https://rethinksci-gif.github.io/electrification-intelligence-site/en/analyst-editions/001/) | 2026-10-07 |
+| **CCU Intelligence**<br><sub>Biweekly · EN</sub> | [Offtake Momentum for e-SAF and e-Methanol, and CO2 Electrolysis Trade-offs](https://rethinksci-gif.github.io/ccu-intelligence/issues/issue-001-research-2026-10-09/) | 2026-10-09 |
+<!-- latest ends -->
+
+<sub>Refreshed daily from each briefing's public feed by <a href=".github/workflows/build.yml">a GitHub Action</a>.</sub>
+
+## Follow along
+
+| Briefing | Focus | Subscribe |
+| --- | --- | --- |
+| **[AIM4R](https://github.com/rethinksci-gif/AIM4R)** | Robotics, embodied intelligence, materials | [RSS 中文](https://rethinksci-gif.github.io/AIM4R/feed-zh.xml) · [RSS EN](https://rethinksci-gif.github.io/AIM4R/feed-en.xml) |
+| **[Plastic Signal Weekly](https://github.com/rethinksci-gif/plastic-signal-weekly)** | Circular materials, recycling, regulation, supply chains | [RSS](https://rethinksci-gif.github.io/plastic-signal-weekly/feed-en.xml) |
+| **[Electrification Intelligence](https://github.com/rethinksci-gif/electrification-intelligence-site)** | Power mix and electrification, with evidence appendices | [EN](https://rethinksci-gif.github.io/electrification-intelligence-site/en/) · [中文](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/) |
+| **[CCU Intelligence](https://github.com/rethinksci-gif/ccu-intelligence)** | Carbon capture & utilization: deployment, economics, climate performance | [RSS](https://rethinksci-gif.github.io/ccu-intelligence/rss.xml) |
 
 ## Research garden
 
@@ -30,14 +50,14 @@ I build open, source-linked briefings and research notes across **materials, AI,
 
 - **Sources first:** every signal links back to its primary source. Missing evidence stays missing; it is never filled in to hit a quota.
 - **Transparent by default:** scoring, calculations and selection rules are documented in each repository.
-- **Human review before publishing:** automation collects and drafts. Editions go out only after editorial review.
+- **Automation drafts, people decide:** the weekly briefings are generated by documented, scheduled pipelines; CCU and Electrification editions are published only after editorial review.
 
 > Collect signals → examine the evidence → connect ideas → frame the next question.
 
 <details>
 <summary>中文简介</summary>
 
-这里汇集材料、人工智能、机器人、循环经济、电气化与碳捕集利用方向的研究笔记、工程案例和情报工具。所有内容以证据为先，标注原始来源，并经人工审阅后发布。
+这里汇集材料、人工智能、机器人、循环经济、电气化与碳捕集利用方向的研究笔记、工程案例和情报工具。所有内容以证据为先，标注原始来源；周报由公开规则自动生成，CCU 与电气化专刊经人工审阅后发布。
 
 - **知识花园**：沿主题阅读互相关联的笔记与工程案例。
 - **AIM4R**：中英双语周报，追踪具身智能、机器人与材料研究动态。
@@ -49,4 +69,4 @@ I build open, source-linked briefings and research notes across **materials, AI,
 
 ---
 
-<sub>Built in the open · Contact: rethinksci@gmail.com</sub>
+<sub>Built in the open. Follow the sources, read the rules, explore the connections.</sub>

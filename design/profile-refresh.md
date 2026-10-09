@@ -14,3 +14,17 @@ Excluded lowlighter/metrics (latest default-branch commit returned 2023-12-18) a
 A forest/cream research identity, responsive theme-aware banner, three stacked project sections, direct reading/source/RSS links and an optional Chinese introduction. Layout uses GitHub-supported Markdown and HTML, without custom CSS, JavaScript, third-party image services or invented statistics. Text remains readable independently of the SVG.
 
 No external source code or artwork copied; no additional runtime dependencies or scheduled jobs.
+
+# Live profile — 2026-10-09
+
+## Maintained references
+
+- https://github.com/simonw/simonw (pushed 2026-10-09) and https://github.com/tw93/tw93 (pushed 2026-10-09): scheduled Action rewrites marker-delimited README blocks from the owner's own feeds. Adopted for the "Latest issues" table.
+- https://github.com/antfu/antfu (pushed 2026-10-09): compact centered `<samp>` link bar. Adopted for top navigation.
+- https://github.com/gautamkrishnar/blog-post-workflow (pushed 2026-10-07): reviewed as an off-the-shelf RSS-to-README action. Not used, because the Electrification site has no feed and the briefing feeds need custom titles.
+
+## Design
+
+`build_readme.py` (standard library only) reads the AIM4R and Plastic Signal Atom feeds, the CCU RSS feed and the Electrification sitemap, and rewrites the block between `<!-- latest starts -->` and `<!-- latest ends -->`. A source that fails keeps its previous row. `.github/workflows/build.yml` runs it daily at 06:37 UTC and commits only when the README changes.
+
+The garden's Quartz `index.xml` is excluded: every item carries the build date, which would make unchanged notes look new.

@@ -1,0 +1,29 @@
+name: Build README
+
+on:
+  push:
+    paths:
+      - build_readme.py
+      - .github/workflows/build.yml
+  workflow_dispatch:
+  schedule:
+    - cron: "37 6 * * *" # Daily, after the briefing feeds publish
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Update README
+        run: python3 build_readme.py
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          git config user.name "readme-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update latest issues" || exit 0
+          git push
