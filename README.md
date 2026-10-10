@@ -5,20 +5,21 @@
 
 # Rethink Science
 
-**Evidence-first intelligence for emerging technologies.**
+**Research signals. Engineering questions. Evidence you can follow.**
 
-I build open, source-linked briefings and research notes across **materials, AI, robotics, circularity, electrification and carbon**. They turn scattered signals into practical engineering questions.
+I build open briefings and connected research notes across **materials, AI, robotics, circularity, electrification and carbon** — to help readers explore what is changing, what the evidence supports, and what to investigate next.
 
-<p align="center"><samp>
-<a href="https://rethinksci-gif.github.io/">garden</a> ·
-<a href="https://rethinksci-gif.github.io/AIM4R/">aim4r</a> ·
-<a href="https://rethinksci-gif.github.io/plastic-signal-weekly/">plastic&nbsp;signal</a> ·
-<a href="https://rethinksci-gif.github.io/electrification-intelligence-site/">electrification</a> ·
-<a href="https://rethinksci-gif.github.io/ccu-intelligence/">ccu</a> ·
-<a href="mailto:rethinksci@gmail.com">contact</a>
-</samp></p>
+材料与智能，能源与循环。用可追溯的证据，把研究动态连接到工程问题。
 
-## Latest issues
+**[Explore the research garden ↗](https://rethinksci-gif.github.io/)** · [Latest briefings](#latest-briefings) · [Projects & subscriptions](#projects--subscriptions) · [中文导览](#中文导览)
+
+## Start here
+
+- **Explore a topic** → [Research garden](https://rethinksci-gif.github.io/): connected notes across the research themes.
+- **Study an engineering problem** → [Engineering case notes](https://rethinksci-gif.github.io/engineering-case-notes/): cases that connect research to practice.
+- **Track new developments** → choose a briefing below, then follow its feed or browse its editions.
+
+## Latest briefings
 
 <!-- latest starts -->
 | Briefing | Latest issue | Date |
@@ -31,20 +32,16 @@ I build open, source-linked briefings and research notes across **materials, AI,
 
 <sub>Refreshed daily from each briefing's public feed by <a href=".github/workflows/build.yml">a GitHub Action</a>.</sub>
 
-## Follow along
+## Projects & subscriptions
 
-| Briefing | Focus | Subscribe |
+Project names open the publications; **Code** opens the repositories and their methods.
+
+| Publication | Questions it follows | Code & follow |
 | --- | --- | --- |
-| **[AIM4R](https://github.com/rethinksci-gif/AIM4R)** | Robotics, embodied intelligence, materials | [RSS 中文](https://rethinksci-gif.github.io/AIM4R/feed-zh.xml) · [RSS EN](https://rethinksci-gif.github.io/AIM4R/feed-en.xml) |
-| **[Plastic Signal Weekly](https://github.com/rethinksci-gif/plastic-signal-weekly)** | Circular materials, recycling, regulation, supply chains | [RSS](https://rethinksci-gif.github.io/plastic-signal-weekly/feed-en.xml) |
-| **[Electrification Intelligence](https://github.com/rethinksci-gif/electrification-intelligence-site)** | Power mix and electrification, with evidence appendices | [EN](https://rethinksci-gif.github.io/electrification-intelligence-site/en/) · [中文](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/) |
-| **[CCU Intelligence](https://github.com/rethinksci-gif/ccu-intelligence)** | Carbon capture & utilization: deployment, economics, climate performance | [RSS](https://rethinksci-gif.github.io/ccu-intelligence/rss.xml) |
-
-## Research garden
-
-**Connected notes. Better questions.** An evolving collection of research notes and engineering case studies, from materials informatics and embodied AI to recycling and circular manufacturing.
-
-[Explore the garden ↗](https://rethinksci-gif.github.io/) · [Engineering case notes](https://rethinksci-gif.github.io/engineering-case-notes/) · [Source](https://github.com/rethinksci-gif/rethinksci-gif.github.io)
+| **[AIM4R](https://rethinksci-gif.github.io/AIM4R/)** | What is advancing in robotics, embodied AI and materials? | [Code](https://github.com/rethinksci-gif/AIM4R) · [RSS 中文](https://rethinksci-gif.github.io/AIM4R/feed-zh.xml) · [RSS EN](https://rethinksci-gif.github.io/AIM4R/feed-en.xml) |
+| **[Plastic Signal Weekly](https://rethinksci-gif.github.io/plastic-signal-weekly/)** | How are materials innovation, recycling and regulation changing plastics? | [Code](https://github.com/rethinksci-gif/plastic-signal-weekly) · [RSS](https://rethinksci-gif.github.io/plastic-signal-weekly/feed-en.xml) |
+| **[Electrification Intelligence](https://rethinksci-gif.github.io/electrification-intelligence-site/en/)** | Where is electrification progressing, and what constrains it? | [Code](https://github.com/rethinksci-gif/electrification-intelligence-site) · [中文](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/) |
+| **[CCU Intelligence](https://rethinksci-gif.github.io/ccu-intelligence/)** | What shapes carbon utilization deployment, economics and climate performance? | [Code](https://github.com/rethinksci-gif/ccu-intelligence) · [RSS](https://rethinksci-gif.github.io/ccu-intelligence/rss.xml) |
 
 ## How the work is made
 
@@ -52,20 +49,19 @@ I build open, source-linked briefings and research notes across **materials, AI,
 - **Transparent by default:** scoring, calculations and selection rules are documented in each repository.
 - **Automation drafts, people decide:** the weekly briefings are generated by documented, scheduled pipelines; CCU and Electrification editions are published only after editorial review.
 
-> Collect signals → examine the evidence → connect ideas → frame the next question.
-
-<details>
-<summary>中文简介</summary>
+## 中文导览
 
 这里汇集材料、人工智能、机器人、循环经济、电气化与碳捕集利用方向的研究笔记、工程案例和情报工具。所有内容以证据为先，标注原始来源；周报由公开规则自动生成，CCU 与电气化专刊经人工审阅后发布。
 
-- **知识花园**：沿主题阅读互相关联的笔记与工程案例。
-- **AIM4R**：中英双语周报，追踪具身智能、机器人与材料研究动态。
-- **Plastic Signal Weekly**：面向塑料产业的英文周刊，关注材料创新与实际决策。
-- **Electrification Intelligence**：中英双语电气化情报，附完整证据附录。
-- **CCU Intelligence**：碳捕集与利用（CCU）情报，覆盖技术、产业部署、经济性与气候绩效。
+- 从 [知识花园](https://rethinksci-gif.github.io/) 与 [工程案例](https://rethinksci-gif.github.io/engineering-case-notes/) 开始，按主题深入阅读。
+- 阅读 [AIM4R](https://rethinksci-gif.github.io/AIM4R/) 与 [电气化情报中文版](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/)，追踪机器人、材料与能源转型。
+- 关注 [Plastic Signal Weekly](https://rethinksci-gif.github.io/plastic-signal-weekly/) 与 [CCU Intelligence](https://rethinksci-gif.github.io/ccu-intelligence/)，了解塑料循环与碳利用方向的英文简报。
 
-</details>
+## Connect
+
+Have a source to share, a correction, or a research question? [Email me](mailto:rethinksci@gmail.com), or open an issue in the relevant project above.
+
+[Research garden source](https://github.com/rethinksci-gif/rethinksci-gif.github.io) · [All repositories](https://github.com/rethinksci-gif?tab=repositories)
 
 ---
 

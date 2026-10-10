@@ -28,3 +28,9 @@ No external source code or artwork copied; no additional runtime dependencies or
 `build_readme.py` (standard library only) reads the AIM4R and Plastic Signal Atom feeds, the CCU RSS feed and the Electrification sitemap, and rewrites the block between `<!-- latest starts -->` and `<!-- latest ends -->`. A source that fails keeps its previous row. `.github/workflows/build.yml` runs it daily at 06:37 UTC and commits only when the README changes.
 
 The garden's Quartz `index.xml` is excluded: every item carries the build date, which would make unchanged notes look new.
+
+## Reading paths — 2026-10-10
+
+The introduction now states the reader benefit and includes a visible Chinese summary. Three starting paths lead to the research garden, engineering cases and current briefings. Publication names open the live sites, with separate repository and subscription links. The Chinese guide is visible and linked from the introduction; a contact section invites sources, corrections and research questions.
+
+The daily latest-issue markers and row format are preserved so the existing updater remains compatible. The dark banner arrow now uses dark ink against its light circle for legibility. All visual assets remain repository-hosted, with no added dependencies.
