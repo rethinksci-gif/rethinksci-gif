@@ -25,7 +25,7 @@ I build open briefings and connected research notes across **materials, AI, robo
 | Briefing | Latest issue | Date |
 | --- | --- | --- |
 | **AIM4R**<br><sub>Weekly · 中文 / EN</sub> | [AIM4R Research Radar · 2026-10-12](https://rethinksci-gif.github.io/AIM4R/2026/10/12/summary-en.html) | 2026-10-12 |
-| **Plastic Signal Weekly**<br><sub>Weekly · EN</sub> | [Plastics brief: 18 picks from 243 signals](https://rethinksci-gif.github.io/plastic-signal-weekly/2026/10/11/summary-en.html) | 2026-10-11 |
+| **Plastic Signal Weekly**<br><sub>Weekly · EN</sub> | [Plastics brief: 12 picks from 43 signals](https://rethinksci-gif.github.io/plastic-signal-weekly/2026/10/18/summary-en.html) | 2026-10-18 |
 | **Electrification Intelligence**<br><sub>Editions · EN / 中文</sub> | [A cleaner power mix. An unfinished substitution.](https://rethinksci-gif.github.io/electrification-intelligence-site/en/analyst-editions/001/) | 2026-10-07 |
 | **CCU Intelligence**<br><sub>Biweekly · EN</sub> | [Offtake Momentum for e-SAF and e-Methanol, and CO2 Electrolysis Trade-offs](https://rethinksci-gif.github.io/ccu-intelligence/issues/issue-001-research-2026-10-09/) | 2026-10-09 |
 <!-- latest ends -->
