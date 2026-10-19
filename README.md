@@ -1,25 +1,27 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-dark.svg">
-  <img src="assets/profile-light.svg" alt="Rethink Science — connecting materials, AI, robotics, circularity, energy and carbon." width="100%">
+  <img src="assets/profile-light.svg" alt="Rethink Science — from research signals to engineering questions." width="100%">
 </picture>
 
 # Rethink Science
 
-**Research signals. Engineering questions. Evidence you can follow.**
+**从研究动态，到工程问题。让每一个判断都有据可查。**
 
-I build open briefings and connected research notes across **materials, AI, robotics, circularity, electrification and carbon** — to help readers explore what is changing, what the evidence supports, and what to investigate next.
+I build open research notes, briefings and tools to connect **materials, AI and robotics** with **circularity, electrification and carbon utilization**.
 
-材料与智能，能源与循环。用可追溯的证据，把研究动态连接到工程问题。
+这里汇集研究笔记、工程案例与开源情报工具，帮助你追踪进展、查找证据、确定下一步值得研究的问题。
 
-**[Research garden ↗](https://rethinksci-gif.github.io/)** · [中文阅读入口](https://rethinksci-gif.github.io/#chinese-guide) · [Latest briefings](#latest-briefings) · [Projects & subscriptions](#projects--subscriptions)
+**[知识花园 · Research garden ↗](https://rethinksci-gif.github.io/)** · [中文阅读](https://rethinksci-gif.github.io/#chinese-guide) · [最新简报](#latest-briefings) · [研究工具](#research-tools)
 
-## Start with a question
+## 从这里开始 · Start here
 
-- **How does AI help materials R&D?** [从预测材料性能，到建立可靠的研发闭环](https://rethinksci-gif.github.io/material-intelligence/case-study/ai-materials-rd-closed-loop) — a literature-based learning note, in Chinese.
-- **What should we test when a material substitution fails?** [ABS → PCR PP engineering diagnosis](https://rethinksci-gif.github.io/engineering-case-notes/abs-to-pcr-pp-electroplating-diagnosis) — hypotheses, evidence, and minimum experiments, in Chinese.
-- **What is changing in the field?** Choose a publication below, read its evidence, or subscribe to its feed.
+- **探索 AI × 材料研发** — [从预测材料性能，到建立可靠的研发闭环](https://rethinksci-gif.github.io/material-intelligence/case-study/ai-materials-rd-closed-loop)。基于文献的学习笔记，梳理预测、实验与验证之间的联系。
+- **拆解一个工程问题** — [ABS → PCR PP：材料替代与电镀失效诊断](https://rethinksci-gif.github.io/engineering-case-notes/abs-to-pcr-pp-electroplating-diagnosis)。从假设、证据到最小验证实验。
 
-## Latest briefings
+<sub>Both notes are in Chinese. For English reading, explore the briefings and tools below.</sub>
+
+<a id="latest-briefings"></a>
+## 最新简报 · Latest briefings
 
 <!-- latest starts -->
 | Briefing | Latest issue | Date |
@@ -30,47 +32,36 @@ I build open briefings and connected research notes across **materials, AI, robo
 | **CCU Intelligence**<br><sub>Biweekly · EN</sub> | [Offtake Momentum for e-SAF and e-Methanol, and CO2 Electrolysis Trade-offs](https://rethinksci-gif.github.io/ccu-intelligence/issues/issue-001-research-2026-10-09/) | 2026-10-09 |
 <!-- latest ends -->
 
-<sub>Refreshed daily from each briefing's public feed by <a href=".github/workflows/build.yml">a GitHub Action</a>.</sub>
+<sub>每日同步最新刊期 · Updated daily from publication feeds and the edition index. Dates refer to issues, not profile refreshes.</sub>
 
-## Projects & subscriptions
+<details>
+<summary><strong>订阅与源码 · Subscribe & explore the code</strong></summary>
 
-Project names open the publications; **Code** opens the repositories and their methods.
-
-| Publication | Questions it follows | Code & follow |
+| Publication | Subscribe / language | Source |
 | --- | --- | --- |
-| **[AIM4R](https://rethinksci-gif.github.io/AIM4R/)** | What is advancing in robotics, embodied AI and materials? | [Code](https://github.com/rethinksci-gif/AIM4R) · [RSS 中文](https://rethinksci-gif.github.io/AIM4R/feed-zh.xml) · [RSS EN](https://rethinksci-gif.github.io/AIM4R/feed-en.xml) |
-| **[Plastic Signal Weekly](https://rethinksci-gif.github.io/plastic-signal-weekly/)** | How are materials innovation, recycling and regulation changing plastics? | [Code](https://github.com/rethinksci-gif/plastic-signal-weekly) · [RSS](https://rethinksci-gif.github.io/plastic-signal-weekly/feed-en.xml) |
-| **[Electrification Intelligence](https://rethinksci-gif.github.io/electrification-intelligence-site/en/)** | Where is electrification progressing, and what constrains it? | [Code](https://github.com/rethinksci-gif/electrification-intelligence-site) · [中文](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/) |
-| **[CCU Intelligence](https://rethinksci-gif.github.io/ccu-intelligence/)** | What shapes carbon utilization deployment, economics and climate performance? | [Code](https://github.com/rethinksci-gif/ccu-intelligence) · [RSS](https://rethinksci-gif.github.io/ccu-intelligence/rss.xml) |
+| [AIM4R](https://rethinksci-gif.github.io/AIM4R/) · AI, robotics & materials | [RSS 中文](https://rethinksci-gif.github.io/AIM4R/feed-zh.xml) · [RSS EN](https://rethinksci-gif.github.io/AIM4R/feed-en.xml) | [Code](https://github.com/rethinksci-gif/AIM4R) |
+| [Plastic Signal Weekly](https://rethinksci-gif.github.io/plastic-signal-weekly/) · Plastics & circularity | [RSS EN](https://rethinksci-gif.github.io/plastic-signal-weekly/feed-en.xml) | [Code](https://github.com/rethinksci-gif/plastic-signal-weekly) |
+| Electrification Intelligence · Energy transition | [中文](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/) · [EN](https://rethinksci-gif.github.io/electrification-intelligence-site/en/) | [Code](https://github.com/rethinksci-gif/electrification-intelligence-site) |
+| [CCU Intelligence](https://rethinksci-gif.github.io/ccu-intelligence/) · Carbon utilization | [RSS EN](https://rethinksci-gif.github.io/ccu-intelligence/rss.xml) | [Code](https://github.com/rethinksci-gif/ccu-intelligence) |
 
-### Research tools
+</details>
 
-| Tool | Use it to… | Source |
+<a id="research-tools"></a>
+## 研究工具 · Research tools
+
+| Explore | What you can do | Source |
 | --- | --- | --- |
-| **[BioGlue Intelligence](https://rethinksci-gif.github.io/bioglue-intelligence/)** | Explore bio-based wood adhesive chemistry, routes, and evidence gaps. | [Code](https://github.com/rethinksci-gif/bioglue-intelligence) |
-| **[Plastics Policy Tracker](https://rethinksci-gif.github.io/plastics-policy-tracker/)** | Find plastics regulations and trace them to official sources. | [Code](https://github.com/rethinksci-gif/plastics-policy-tracker) |
+| **[BioGlue Intelligence ↗](https://rethinksci-gif.github.io/bioglue-intelligence/)**<br>生物胶黏剂知识库 | Explore bio-based wood adhesive chemistry, routes and evidence gaps. | [Code](https://github.com/rethinksci-gif/bioglue-intelligence) |
+| **[Plastics Policy Tracker ↗](https://rethinksci-gif.github.io/plastics-policy-tracker/)**<br>塑料政策追踪器 | Find plastics regulations and follow links to official sources. | [Code](https://github.com/rethinksci-gif/plastics-policy-tracker) |
 
-## How the work is made
+## 工作方式 · How I work
 
-- **Sources first:** every signal links back to its primary source. Missing evidence stays missing; it is never filled in to hit a quota.
-- **Transparent by default:** scoring, calculations and selection rules are documented in each repository.
-- **Automation drafts, people decide:** the weekly briefings are generated by documented, scheduled pipelines; CCU and Electrification editions are published only after editorial review.
+**追溯来源 · Trace the evidence.** Follow links to original sources; distinguish evidence, hypotheses and open questions.
 
-## 中文导览
+**公开方法 · Inspect the method.** Explore the collection, selection and analysis rules in the project repositories.
 
-这里汇集材料、人工智能、机器人、循环经济、电气化与碳捕集利用方向的研究笔记、工程案例和情报工具。所有内容以证据为先，标注原始来源；周报由公开规则自动生成，CCU 与电气化专刊经人工审阅后发布。
-
-- 从 [中文阅读入口](https://rethinksci-gif.github.io/#chinese-guide)、[知识花园](https://rethinksci-gif.github.io/) 与 [工程案例](https://rethinksci-gif.github.io/engineering-case-notes/) 开始，按主题深入阅读。
-- 阅读 [AIM4R](https://rethinksci-gif.github.io/AIM4R/) 与 [电气化情报中文版](https://rethinksci-gif.github.io/electrification-intelligence-site/zh/)，追踪机器人、材料与能源转型。
-- 关注 [Plastic Signal Weekly](https://rethinksci-gif.github.io/plastic-signal-weekly/) 与 [CCU Intelligence](https://rethinksci-gif.github.io/ccu-intelligence/)，了解塑料循环与碳利用方向的英文简报。
-- 按问题查找 [生物胶黏剂知识库](https://rethinksci-gif.github.io/bioglue-intelligence/) 与 [塑料政策追踪器](https://rethinksci-gif.github.io/plastics-policy-tracker/)。
-
-## Connect
-
-Have a source to share, a correction, or a research question? [Email me](mailto:rethinksci@gmail.com), or open an issue in the relevant project above.
-
-[Research garden source](https://github.com/rethinksci-gif/rethinksci-gif.github.io) · [All repositories](https://github.com/rethinksci-gif?tab=repositories)
+**说明自动化边界 · Understand the workflow.** Weekly briefings use scheduled pipelines. CCU and Electrification editions are published after editorial review.
 
 ---
 
-<sub>Built in the open. Follow the sources, read the rules, explore the connections.</sub>
+**交流与纠错 · Get in touch** — 分享来源、提出研究问题或反馈错误：[Email](mailto:rethinksci@gmail.com) · [Open a profile issue](https://github.com/rethinksci-gif/rethinksci-gif/issues) · [All repositories](https://github.com/rethinksci-gif?tab=repositories)

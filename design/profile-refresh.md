@@ -34,3 +34,11 @@ The garden's Quartz `index.xml` is excluded: every item carries the build date, 
 The introduction now states the reader benefit and includes a visible Chinese summary. Three starting paths lead to the research garden, engineering cases and current briefings. Publication names open the live sites, with separate repository and subscription links. The Chinese guide is visible and linked from the introduction; a contact section invites sources, corrections and research questions.
 
 The daily latest-issue markers and row format are preserved so the existing updater remains compatible. The dark banner arrow now uses dark ink against its light circle for legibility. All visual assets remain repository-hosted, with no added dependencies.
+
+## Bilingual reading hierarchy — 2026-10-19
+
+The introduction now puts the Chinese reader promise and garden link first, followed by two concrete reading paths. Bilingual headings connect the latest issues, research tools and editorial methods. Duplicate project introductions and the separate Chinese guide are consolidated; RSS, language and repository links remain available in a native details element below the issues.
+
+The original theme-aware SVG banner is reduced from 280 to 220 pixels high, with fewer text elements and the existing forest/cream palette. No external assets or dependencies were added.
+
+Validation: GitHub Markdown API rendering; local browser previews at desktop and 375px widths with no document overflow; SVG XML parsing; existing latest issue block unchanged; simulated successful and unavailable feeds preserve all content outside the update markers. Browser previews use representative styling, not GitHub's complete page stylesheet.
