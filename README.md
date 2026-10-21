@@ -11,14 +11,15 @@ I build open research notes, briefings and tools to connect **materials, AI and 
 
 这里汇集研究笔记、工程案例与开源情报工具，帮助你追踪进展、查找证据、确定下一步值得研究的问题。
 
-**[知识花园 · Research garden ↗](https://rethinksci-gif.github.io/)** · [中文阅读](https://rethinksci-gif.github.io/#chinese-guide) · [最新简报](#latest-briefings) · [研究工具](#research-tools)
+**[知识花园 · Research garden ↗](https://rethinksci-gif.github.io/)** · [中文阅读](https://rethinksci-gif.github.io/#chinese-guide) · [最新简报](#latest-briefings) · [专题知识库与工具](#research-tools)
 
 ## 从这里开始 · Start here
 
 - **探索 AI × 材料研发** — [从预测材料性能，到建立可靠的研发闭环](https://rethinksci-gif.github.io/material-intelligence/case-study/ai-materials-rd-closed-loop)。基于文献的学习笔记，梳理预测、实验与验证之间的联系。
 - **拆解一个工程问题** — [ABS → PCR PP：材料替代与电镀失效诊断](https://rethinksci-gif.github.io/engineering-case-notes/abs-to-pcr-pp-electroplating-diagnosis)。从假设、证据到最小验证实验。
+- **追踪生物基聚合物** — [Biopolymer Intelligence](https://rethinksci-gif.github.io/biopolymer-intelligence/)：从 PLA、PHA、PEF 的材料路线与化学结构，读到性能约束、文献和月度研究线索。
 
-<sub>Both notes are in Chinese. For English reading, explore the briefings and tools below.</sub>
+<sub>The first two notes are in Chinese. Biopolymer Intelligence and the resources below offer English reading.</sub>
 
 <a id="latest-briefings"></a>
 ## 最新简报 · Latest briefings
@@ -47,12 +48,15 @@ I build open research notes, briefings and tools to connect **materials, AI and 
 </details>
 
 <a id="research-tools"></a>
-## 研究工具 · Research tools
+## 专题知识库与工具 · Knowledge bases & tools
 
 | Explore | What you can do | Source |
 | --- | --- | --- |
+| **[Biopolymer Intelligence ↗](https://rethinksci-gif.github.io/biopolymer-intelligence/)**<br>生物基聚合物知识库 | Explore PLA, PHA, PEF and emerging bio-based polymer chemistry, compare material routes and follow monthly research leads. | [Code](https://github.com/rethinksci-gif/biopolymer-intelligence) |
 | **[BioGlue Intelligence ↗](https://rethinksci-gif.github.io/bioglue-intelligence/)**<br>生物胶黏剂知识库 | Explore bio-based wood adhesive chemistry, routes and evidence gaps. | [Code](https://github.com/rethinksci-gif/bioglue-intelligence) |
 | **[Plastics Policy Tracker ↗](https://rethinksci-gif.github.io/plastics-policy-tracker/)**<br>塑料政策追踪器 | Find plastics regulations and follow links to official sources. | [Code](https://github.com/rethinksci-gif/plastics-policy-tracker) |
+
+**聚合物专题入口 · Explore biopolymers:** [材料路线 · Routes](https://rethinksci-gif.github.io/biopolymer-intelligence/routes/) · [化学结构 · Chemistry](https://rethinksci-gif.github.io/biopolymer-intelligence/chemistry/) · [月度追踪 · Tracker](https://rethinksci-gif.github.io/biopolymer-intelligence/tracker/) · [开放数据 · Open data](https://rethinksci-gif.github.io/biopolymer-intelligence/data/)
 
 ## 工作方式 · How I work
 
@@ -61,6 +65,8 @@ I build open research notes, briefings and tools to connect **materials, AI and 
 **公开方法 · Inspect the method.** Explore the collection, selection and analysis rules in the project repositories.
 
 **说明自动化边界 · Understand the workflow.** Weekly briefings use scheduled pipelines. CCU and Electrification editions are published after editorial review.
+
+**区分线索与结论 · Separate leads from findings.** Biopolymer Intelligence labels machine-triaged leads separately from checked developments; monthly newsletter drafts await a named technical reviewer's sign-off.
 
 ---
 
